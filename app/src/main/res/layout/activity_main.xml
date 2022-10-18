@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/file_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="選擇圖片"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp"
+        />
+    <Button
+        android:id="@+id/gen_dicom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="轉換Dicom"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp"
+        />
+
+    <Button
+        android:id="@+id/dcm_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="選擇Dicom檔案"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp"
+        />
+
+    <Button
+        android:id="@+id/scu_dicom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上傳Dicom"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp"
+        />
+
+
+
+</LinearLayout>
